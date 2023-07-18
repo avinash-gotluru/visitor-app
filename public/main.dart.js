@@ -115138,8 +115138,8 @@ k.push(A.dI(n,new A.aGN(d,a),A.a8(m).p3.ax.r,!1,!1,"Apply",!1,n))}l=A.a([q,A.aH(
 if(a.e!==1&&d){$.aN().toString
 l.push(A.dI(n,new A.aGO(d,a),A.a8(m).p3.ax.r,!1,!1,"Apply",!1,n))}return A.b_(l,B.p,B.j,B.i,n)}}
 A.aGR.prototype={
-$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="All purpose of visits",e="All departments",d="All locations",c="yyyy-MM-dd hh:mm:sss",b="do MMM yyyy",a=A.jd()
-a=new A.fK(A.aV(t.b))
+$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="All purpose of visits",e="All locations",d="yyyy-MM-dd hh:mm:sss",c="do MMM yyyy",b=A.jd()
+b=new A.fK(A.aV(t.b))
 s=$.e4
 if(s==null)s=$.e4=new A.i8()
 r=A.b3L()
@@ -115148,12 +115148,12 @@ q.toString
 p=A.b3L()
 o=t.mh
 n=A.a([new A.bB(0,f,g,g)],o)
-m=A.a([new A.bB(0,e,1,g)],o)
-l=A.a([new A.bB(0,e,1,g)],o)
-k=A.a([new A.bB(0,d,1,g)],o)
+m=A.a([new A.bB(0,"All departments",1,g)],o)
+l=A.a([],o)
+k=A.a([new A.bB(0,e,1,g)],o)
 o=A.a([new A.bB(5,"All statuses",g,g),new A.bB(0,"Invited",g,g),new A.bB(1,"Pending",g,g),new A.bB(2,"Checked-in",g,g),new A.bB(3,"Checked-out",g,g),new A.bB(4,"Rejected",g,g)],o)
 $.aN().toString
-j=A.eZ(g).PC(B.ku).dL(0,c)
+j=A.eZ(g).PC(B.ku).dL(0,d)
 i=A.eZ(g)
 h=i.a
 h===$&&A.b()
@@ -115164,7 +115164,7 @@ i.a=h
 h=i.Ah(h,0)
 i.a=h
 i.a=i.Ah(h,0)
-return new A.kS(new A.iH(new A.ix(a,s)),r,q,p,n,m,l,k,o,B.eW,new A.bB(0,f,g,g),new A.bB(0,"All",g,g),new A.bB(5,"All",g,g),new A.bB(0,d,0,g),"Select Date Range",j,A.eZ(i).dL(0,c),A.eZ(g).PC(B.ku).dL(0,b)+" - "+A.eZ(g).dL(0,b),$.bo())},
+return new A.kS(new A.iH(new A.ix(b,s)),r,q,p,n,m,l,k,o,B.eW,new A.bB(0,f,g,g),new A.bB(0,"All",g,g),new A.bB(5,"All",g,g),new A.bB(0,e,0,g),"Select Date Range",j,A.eZ(i).dL(0,d),A.eZ(g).PC(B.ku).dL(0,c)+" - "+A.eZ(g).dL(0,c),$.bo())},
 $S:804}
 A.aGQ.prototype={
 $1(a){a.kK()
